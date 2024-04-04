@@ -44,4 +44,36 @@ footer {
 	font-size: .70em;
 	text-align: center;
     color: #341509;
+}/* Media Query for Tablet Viewport */
+@media screen and (min-width: 481px) {
+  /* Style for article element in tablet viewport */
+  article {
+    width: 43%;
+    float: left;
+    height: 160px;
+  }
+
+  /* Clear float on the left for footer */
+  footer {
+    clear: left;
+  }
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 900px) {
+  /* Style for article element in desktop viewport */
+  article {
+    width: 27%;
+    height: 140px;
+  }
+
+  /* Hover effect for article element in desktop viewport */
+  article:hover {
+    background-color: #ffe5dc;
+    color: #a22c02;
+  }
+  body {
+    background: linear-gradient(to left, #fe9972, #ffe5dc);
+    
+  }
 }
